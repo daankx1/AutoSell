@@ -11,21 +11,21 @@ The dataset used in this notebook is `used_cars.csv`, which contains information
 ## Table of Contents
 
 1. **AutoSell - A Platform for Selling Your Used Car**
-2. **1: Preprocessing the Dataset**
+2. **Preprocessing the Dataset**
    - Create a dataframe from `used_cars.csv`.
    - Identify columns with NaN values.
    - Display rows containing NaN values.
    - Handle NaN values in `clean_title`, `accident`, and `fuel_type` columns.
    - Remove invalid entries in the `fuel_type` column.
 
-3. **2: Exploring the Dataset**
+3. **Exploring the Dataset**
    - Exploration of Target Feature
      - Boxplot and histogram analysis for the `price` column.
    - Exploration of Correlations
      - Correlation matrix for numerical attributes.
      - Univariate and multivariate correlations with categorical attributes using boxplots.
 
-4. **3: Predicting Prices**
+4. **Predicting Prices**
    - Baseline Model
      - Using the average price of all cars.
    - Prediction by Classification
@@ -36,7 +36,7 @@ The dataset used in this notebook is `used_cars.csv`, which contains information
      - Feature engineering, selection, data transformation, model training, linear regression, non-linear kernels, and neural networks.
    - Discussion
 
-5. **4: Predicting Time-to-Sale**
+5. **Predicting Time-to-Sale**
    - Data preparation, target feature creation, sensitivity and specificity, data transformation for classification.
    - Model training and evaluation.
    - Discussion
